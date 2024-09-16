@@ -5,3 +5,67 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+/* mobile version */
+/* header */
+
+header {
+  background: linear-gradient(to right, #FFCB05, #FFB803, #FFA500);
+  height: 5rem;
+  border-bottom: 1px solid #2C2E43
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-left: 18px;;
+  color: #2C2E43;
+}
+
+.burger__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-right: 25px;
+}
+
+.line {
+  width: 50px;
+  height: 4px;
+  border-radius: 5px;
+  background-color: #2C2E43;
+}
+
+main {
+  height: 100vh;
+}
+
+/* footer */
+
+footer {
+  background: linear-gradient(to right, #FFCB05, #FFB803, #FFA500);
+  border-top: 1px solid #2C2E43;
+  height: 100px;
+  border-radius: 37% 37% 0% 0% / 17% 16% 10% 10%  ;
+  text-align: center;
+}
+
+footer p:first-child{
+  padding-top: 30px;
+  
+}
+
+footer p {
+  font-size: 0.8rem;
+}
