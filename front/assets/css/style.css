@@ -24,8 +24,6 @@ nav {
 }
 
 .logo {
-  display: flex;
-  align-items: center;
   font-weight: 600;
   text-transform: uppercase;
   padding-top: 10px;
@@ -33,6 +31,18 @@ nav {
   color: #2C2E43;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #2C2E43;
+}
+
+.logo img {
+  width: 50px;
 }
 
 .logo:hover {
