@@ -31,6 +31,13 @@ nav {
   padding-top: 10px;
   padding-left: 18px;;
   color: #2C2E43;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  opacity: 80%;
 }
 
 .burger__menu {
@@ -38,6 +45,13 @@ nav {
   flex-direction: column;
   gap: 8px;
   padding-right: 25px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.burger__menu:hover {
+  transform: scale(1.1);
+  opacity: 80%;
 }
 
 .line {
@@ -45,10 +59,6 @@ nav {
   height: 4px;
   border-radius: 5px;
   background-color: #2C2E43;
-}
-
-main {
-  height: 100vh;
 }
 
 /* footer */
