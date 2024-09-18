@@ -2,6 +2,8 @@
 
 BEGIN;
 
+SET client_encoding TO utf8;
+
 DROP TABLE IF EXISTS "pokemon", "type", "team", "pokemon_type", "team_pokemon";
 
 CREATE TABLE "pokemon" (

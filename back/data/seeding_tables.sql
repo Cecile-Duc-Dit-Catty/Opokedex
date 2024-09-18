@@ -1,7 +1,7 @@
 -- SCRIPT SQL donné à titre indicatif. Les scripts JS ont le même effet --
 
 BEGIN;
-
+SET client_encoding TO utf8;
 INSERT INTO "type"
   ("name", "color")
 VALUES

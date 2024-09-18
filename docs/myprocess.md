@@ -13,38 +13,38 @@
 
 ## Page d'accueil
 
-- Créer une page d'accueil avec une navigation vers les différentes sections
+- Créer une page d'accueil avec une navigation vers les différentes sections [x]
 
 ## Page des Pokémon
 
 - Développer une page listant tous les Pokémons
-- Implémenter une pagination ou un défilement infini pour gérer un grand nombre de Pokémons
+- Implémenter une pagination ou un défilement infini pour gérer un grand nombre de Pokémons [x]
 
 ## Page individuelle de Pokémon
 
-- Créer une page détaillée pour chaque Pokémon, affichant ses caractéristiques
+- Créer une page détaillée pour chaque Pokémon, affichant ses caractéristiques [x]
 
 ## Page des types
 
-- Développer une page récapitulative listant tous les types de Pokémon
+- Développer une page récapitulative listant tous les types de Pokémon [x]
 
 ## Page individuelle de type
 
-- Créer une page pour chaque type, listant les Pokémons de ce type
+- Créer une page pour chaque type, listant les Pokémons de ce type [x]
 
 ## Page des équipes
 
-- Développer une page listant toutes les équipes de l'utilisateur
+- Développer une page listant toutes les équipes de l'utilisateur [x]
 
 ## Page individuelle d'équipe
 
-- Créer une page pour chaque équipe, permettant de voir et gérer les Pokémons de l'équipe
+- Créer une page pour chaque équipe, permettant de voir et gérer les Pokémons de l'équipe [x]
 
 # 3 - Intégration et tests
 
 ## Intégration des données
 
-- Importer les données des Pokémons et des types dans la base de données
+- Importer les données des Pokémons et des types dans la base de données [x]
 
 ## Tests fonctionnels
 
