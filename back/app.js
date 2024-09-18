@@ -17,5 +17,5 @@ app.use(express.json());
 app.use('/api', router)
 
 app.listen(process.env.PORT, () => {
-  console.log('Server is running on port 4000');
+  console.log(`🚀 le serveur API est connecté sur le port: 4000`);
 });

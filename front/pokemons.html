@@ -4,20 +4,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Content Security Policy -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; 
+             script-src 'self' 'unsafe-inline'; 
+             style-src 'self' https://fonts.googleapis.com; 
+             font-src 'self' https://fonts.gstatic.com; 
+             connect-src 'self' http://localhost:4000;">
+
   <title>O'pokédex | Liste Pokémon</title>
 
-  <!-- Css style  -->
+  <!-- CSS Styles -->
   <link rel="stylesheet" href="../front/assets/css/reset.css">
   <link rel="stylesheet" href="../front/assets/css/style.css">
   <link rel="stylesheet" href="../front/assets/css/pokemons.css">
+
   <!-- Font style -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-  <!-- Requête AJAX -->
-  <script>"script.js"</script>
+
+  <!-- Custom JS -->
+  <script src="./assets/js/pokemons.js"></script>
 </head>
+
 
 <body>
   <header>
@@ -39,43 +50,13 @@
     <section class="header">
       <h1>Les pokémons</h1>
     </section>
-    <section class="cards-container">
-      <article class="card">
+    <section class="cards-container" id="pokemon-list">
+      <!-- <article class="card">
         <a href="pokemon.html">
-          <h2>Pikachu</h2>
-          <img src="/front/assets/img/25.webp" alt="pikachu">
+          <h2 class="pokemon-name" id="pokemon-name">Pikachu</h2>
+          <img id="pokemon-img" src="/front/assets/img/25.webp" alt="pikachu">
         </a>
-      </article>
-      <article class="card">
-        <a href="#">
-          <h2>Pikachu</h2>
-          <img src="/front/assets/img/25.webp" alt="pikachu">
-        </a>
-      </article>
-      <article class="card">
-        <a href="#">
-          <h2>Pikachu</h2>
-          <img src="/front/assets/img/25.webp" alt="pikachu">
-        </a>
-      </article>
-      <article class="card">
-        <a href="#">
-          <h2>Pikachu</h2>
-          <img src="/front/assets/img/25.webp" alt="pikachu">
-        </a>
-      </article>
-      <article class="card">
-        <a href="#">
-          <h2>Pikachu</h2>
-          <img src="/front/assets/img/25.webp" alt="pikachu">
-        </a>
-      </article>
-      <article class="card">
-        <a href="#">
-          <h2>Pikachu</h2>
-          <img src="/front/assets/img/25.webp" alt="pikachu">
-        </a>
-      </article>
+      </article> -->
     </section>
   </main>
   <footer>
