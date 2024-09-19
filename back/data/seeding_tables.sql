@@ -2,6 +2,10 @@
 
 BEGIN;
 SET client_encoding TO utf8;
+
+TRUNCATE TABLE pokemon_type, team_pokemon, team, pokemon, type RESTART IDENTITY;
+
+
 INSERT INTO "type"
   ("name", "color")
 VALUES
@@ -403,5 +407,21 @@ VALUES
   (150, 12),
   (151, 12)
 ;
+
+
+INSERT INTO "team" 
+  ("name", "description") 
+VALUES 
+  ('Équipe 1', 'Une équipe forte en type feu'),
+  ('Équipe 2', 'Une équipe spécialisée en type eau');
+
+
+INSERT INTO "team_pokemon" 
+  ("pokemon_id", "team_id") 
+VALUES 
+  (6, 1),
+  (59, 1),
+  (9, 2),
+  (130, 2);
 
 COMMIT;

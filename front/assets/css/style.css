@@ -12,7 +12,8 @@ body {
 header {
   background: linear-gradient(to right, #FFCB05, #FFB803, #FFA500);
   height: 5rem;
-  border-bottom: 1px solid #2C2E43
+  border-bottom: 1px solid #2C2E43;
+  position: sticky;
 }
 
 nav {
