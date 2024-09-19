@@ -4,16 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Security-Policy"
-    content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;">
   <title>O'pokédex | Nom Pokémon</title>
 
   <!-- Content Security Policy -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; 
-   script-src 'self' 'unsafe-inline'; 
-   style-src 'self' https://fonts.googleapis.com; 
-   font-src 'self' https://fonts.gstatic.com; 
-   connect-src 'self' http://localhost:4000;">
+  <meta http-equiv="Content-Security-Policy" content="
+  default-src 'self'; 
+  script-src 'self' 'unsafe-inline'; 
+  style-src 'self' https://fonts.googleapis.com; 
+  font-src 'self' https://fonts.gstatic.com; 
+  connect-src 'self' http://localhost:4000;">
 
   <!-- Css style  -->
   <link rel="stylesheet" href="../front/assets/css/reset.css">
@@ -27,9 +26,11 @@
 
   <!-- script custom -->
   <script src="./assets/js/pokemon.js"></script>
+
 </head>
 
 <body>
+
   <header>
     <nav>
       <div class="logo">
@@ -50,8 +51,8 @@
       <h1>Information du Pokémon</h1>
     </section>
 
-    <article class="card">
-      <h2 class="card__title">Pikachu</h2>
+    <article class="card" id="card-pokemonDetail">
+      <!-- <h2 class="card__title">Pikachu</h2>
       <img src="../front/assets/img/25.webp" alt="">
       <section class="informations">
         <p><strong>PV : </strong>35</p>
@@ -60,7 +61,7 @@
         <p><strong>Attaque Spéciale : </strong>50</p>
         <p><strong>Défense Spéciale : </strong>40</p>
         <p><strong>Rapidité : </strong>90</p>
-      </section>
+      </section> -->
     </article>
 
   </main>

@@ -4,8 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Security-Policy"
-    content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;">
   <title>O'pokédex | Page d'accueil</title>
 
   <!-- Css style  -->
@@ -17,6 +15,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+
+  <!-- Content Security Policy -->
+  <meta http-equiv="Content-Security-Policy" content="
+  default-src 'self'; 
+  script-src 'self' 'unsafe-inline'; 
+  style-src 'self' https://fonts.googleapis.com; 
+  font-src 'self' https://fonts.gstatic.com; 
+  connect-src 'self' http://localhost:4000;">
 </head>
 
 <body>
@@ -94,10 +100,10 @@
         <div class="introduction__card--container">
           <section class="introduction__card--leftSide">
             <p class="introduction__card--description">
-              Créez votre équipe Pokémon ultime !
-              Inscrivez-vous pour accéder à cette fonctionnalité.</p>
+              Créez votre équipe de Pokémon ultime !
+              Venez découvrir cette fonctionnalité.</p>
             <a href="teams.html">
-              <button class="introduction__btn--cta">S'inscrire</button>
+              <button class="introduction__btn--cta">Mes Équipes</button>
             </a>
           </section>
           <section class="introduction__card--rightSide introduction__cardLeft--leftSide ">

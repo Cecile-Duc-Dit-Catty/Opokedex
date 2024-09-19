@@ -1,5 +1,7 @@
 import { Model, DataTypes } from 'sequelize';
 import { client } from './client.js';
+import { Type } from "./types.js";
+import { PokemonType } from './pokemonType.js';
 
 export class Pokemon extends Model {}
 
@@ -50,5 +52,6 @@ Pokemon.init({
   tableName: 'pokemon',
   timestamps: false // Désactive les colonnes createdAt et updatedAt puisqu'il n'y en a pas dans la table pokemon
 })
+
 
 export default Pokemon;

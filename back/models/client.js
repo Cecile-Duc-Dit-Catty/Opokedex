@@ -1,6 +1,8 @@
 import 'dotenv/config'; 
 import { Sequelize } from 'sequelize';
 
+
+
 // Récupération des variables d'environnement
 const {
   PGUSER: user,

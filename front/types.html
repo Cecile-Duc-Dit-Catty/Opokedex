@@ -4,8 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Security-Policy"
-    content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;">
   <title>O'pokédex | Types</title>
 
   <!-- Css style  -->
@@ -17,6 +15,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+
+  <!-- Content Security Policy -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; 
+  script-src 'self' 'unsafe-inline'; 
+  style-src 'self' https://fonts.googleapis.com; 
+  font-src 'self' https://fonts.gstatic.com; 
+  connect-src 'self' http://localhost:4000;">
+
+  <!-- Custom JS -->
+  <script src="./assets/js/types.js" defer></script>
 </head>
 
 <body>
@@ -39,130 +47,17 @@
     <section class="header">
       <h1>Les types de Pokémon</h1>
     </section>
-    <section class="container__types">
 
-      <article>
+    <section class="container__types" id="container__types">
+
+      <!-- <article>
         <a href="pokemontype.html">
           <h2>Acier</h2>
         </a>
-      </article>
-
-      <article>
-        <a href="#">
-          <h2>Combat</h2>
-        </a>
-      </article>
-
-      <article>
-        <a href="#">
-          <h2>Dragon</h2>
-        </a>
-      </article>
-
-      <article>
-        <a href="#">
-          <h2>Eau</h2>
-        </a>
-      </article>
-
-      <article>
-        <a href="#">
-          <h2>Électrik</h2>
-        </a>
-      </article>
-
-      <article>
-        <a href="#">
-          <h2>Feu</h2>
-        </a>
-      </article>
-      <article>
-        <a href="#">
-          <h2>Acier</h2>
-        </a>
-      </article>
-
-      <article>
-        <a href="#">
-          <h2>Combat</h2>
-        </a>
-      </article>
-
-      <article>
-        <a href="#">
-          <h2>Dragon</h2>
-        </a>
-      </article>
-
-      <article>
-        <a href="#">
-          <h2>Eau</h2>
-        </a>
-      </article>
-
-      <article>
-        <a href="#">
-          <h2>Électrik</h2>
-        </a>
-      </article>
-
-      <article>
-        <a href="#">
-          <h2>Feu</h2>
-        </a>
-      </article>
-
-      <article>
-        <a href="#">
-          <h2>Combat</h2>
-        </a>
-      </article>
-
-      <article>
-        <a href="#">
-          <h2>Dragon</h2>
-        </a>
-      </article>
-
-      <article>
-        <a href="#">
-          <h2>Eau</h2>
-        </a>
-      </article>
-
-      <article>
-        <a href="#">
-          <h2>Électrik</h2>
-        </a>
-      </article>
-
-      <article>
-        <a href="#">
-          <h2>Feu</h2>
-        </a>
-      </article>
-
-      <article>
-        <a href="#">
-          <h2>Eau</h2>
-        </a>
-      </article>
-
-      <article>
-        <a href="#">
-          <h2>Électrik</h2>
-        </a>
-      </article>
-
-      <article>
-        <a href="#">
-          <h2>Feu</h2>
-        </a>
-      </article>
-
-
+      </article> -->
 
     </section>
+
   </main>
   <footer>
     <p>Attrapez les tous !</p>
