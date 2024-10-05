@@ -1,3 +1,4 @@
+/* mobile version */
 main {
   display: flex;
   flex-direction: column;
@@ -7,10 +8,10 @@ main {
 
 .header {
   width: 100%;
-  color: #2C2E43;
+  color: #2c2e43;
   font-size: 1rem;
-  background-color: #E5E5E5;
-  border-radius: 0% 37% 52% 48% / 20% 0% 80% 100%       ;
+  background-color: #e5e5e5;
+  border-radius: 0% 37% 52% 48% / 20% 0% 80% 100%;
   text-align: center;
   padding-block: 10px;
   margin-bottom: 4cqw;
@@ -24,26 +25,24 @@ main {
   justify-content: space-evenly;
   gap: 10px;
   padding: 30px;
-  border: solid 3px #2C2E43;
+  border: solid 3px #2c2e43;
   border-radius: 15px;
-  background-color: #E5E5E5;
-  
+  background-color: #e5e5e5;
 }
 
 .container__types a {
   text-decoration: none;
-  color: #E5E5E5;
-} 
+  color: #e5e5e5;
+}
 
 article {
   text-align: center;
   width: 120px;
   padding-inline: 15px;
   padding-block: 10px;
-  background-color: #2C2E43;
+  background-color: #2c2e43;
   border-radius: 10px;
   transition: transform 0.2s ease, box-shadow 0.3s ease;
-  
 }
 
 article:hover {
@@ -53,5 +52,4 @@ article:hover {
 
 article h2 {
   font-size: 1.2rem;
-  
 }

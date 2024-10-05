@@ -11,11 +11,10 @@ cd REPO_NAME
 code .
 
 # Installer les dépendances back
-cd back 
+cd back
 npm install
 
-#Si vous voulez utiliser npm coté front (vite etc..) cf votre repo okanban front ;) 
-#Sinon on utilise liveServer tout simplement !
+#Utiliser liveServer.
 ```
 
 ## Mise en place de la base de données
@@ -27,7 +26,7 @@ sudo -i -u postgres psql
 # Créer un utilisateur de base de données
 CREATE USER pokedex_admin WITH LOGIN PASSWORD 'pokedex';
 
-# Créer une base de données 
+# Créer une base de données
 CREATE DATABASE pokedex WITH OWNER pokedex_admin;
 
 # Quitter psql

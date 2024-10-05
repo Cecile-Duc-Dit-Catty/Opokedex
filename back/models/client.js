@@ -20,7 +20,7 @@ export const client = new Sequelize(`postgres://${user}:${password}@${host}:${po
     createdAt: 'created_at',
     updatedAt: 'updated_at', 
   },
-  // Désactive les logs SQL dans la console. Cela peut être utile
+  // Désactivation des logs SQL dans la console. Cela peut être utile
   // pour éviter trop d'informations dans les logs lors du développement ou en production.
   logging:false, 
 });
